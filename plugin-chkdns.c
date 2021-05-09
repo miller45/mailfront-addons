@@ -18,7 +18,7 @@
 #include <arpa/nameser.h>
 #include <resolv.h>
 
-#include <msg/msg.h>
+#include <bglibs/msg.h>
 
 static RESPONSE(badfrom,553,"5.1.8 Invalid sender domain.");
 static response resp_baddbl = { 553, "???" };

@@ -48,13 +48,13 @@ CREATE TABLE maildmarc (
 #include <string.h>
 #include "mailfront.h"
 #include "conf_qmail.c"
-#include <iobuf/ibuf.h>
-#include <iobuf/obuf.h>
-#include <msg/msg.h>
+#include <bglibs/ibuf.h>
+#include <bglibs/obuf.h>
+#include <bglibs/msg.h>
 /* HACK HACK */
 #undef CLOCK_REALTIME
 #undef CLOCK_MONOTONIC
-#include <dict/dict.h>
+#include <bglibs/dict.h>
 #include <dict/load.h>
 
 #include <opendkim/dkim.h>

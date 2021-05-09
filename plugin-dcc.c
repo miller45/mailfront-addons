@@ -6,10 +6,10 @@
 #include <unistd.h>
 #include <string.h>
 #include "mailfront.h"
-#include <net/socket.h>
-#include <iobuf/ibuf.h>
-#include <iobuf/obuf.h>
-#include <msg/msg.h>
+#include <bglibs/socket.h>
+#include <bglibs/ibuf.h>
+#include <bglibs/obuf.h>
+#include <bglibs/msg.h>
 
 static str dccsender;
 static str dccrecips;

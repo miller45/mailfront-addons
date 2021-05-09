@@ -9,13 +9,13 @@
 #include <unistd.h>
 #include <string.h>
 #include "mailfront.h"
-#include <net/socket.h>
-#include <iobuf/ibuf.h>
-#include <iobuf/obuf.h>
-#include <msg/msg.h>
+#include <bglibs/socket.h>
+#include <bglibs/ibuf.h>
+#include <bglibs/obuf.h>
+#include <bglibs/msg.h>
 #include "conf_qmail.c"
-#include <dict/dict.h>
-#include <dict/load.h>
+#include <bglibs/dict.h>
+#include "/usr/local/bglibs/include/dict/load.h"
 
 static dict sanf;
 static str sasender;

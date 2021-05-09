@@ -14,10 +14,9 @@
 #include <ctype.h>
 #include "mailfront.h"
 #include "conf_qmail.c"
-#include <iobuf/ibuf.h>
-#include <dict/dict.h>
-#include <dict/load.h>
-#include <msg/msg.h>
+#include <bglibs/ibuf.h>
+#include <bglibs/dict.h>
+#include <bglibs/msg.h>
 #include <openssl/md5.h>
 #include <sys/time.h>
 #include <string.h>

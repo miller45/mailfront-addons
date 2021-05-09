@@ -15,12 +15,11 @@
 #include <string.h>
 #include "mailfront.h"
 #include "conf_qmail.c"
-#include <iobuf/ibuf.h>
-#include <iobuf/obuf.h>
-#include <msg/msg.h>
+#include <bglibs/ibuf.h>
+#include <bglibs/obuf.h>
+#include <bglibs/msg.h>
 #include <str/str.h>
-#include <dict/dict.h>
-#include <dict/load.h>
+#include <bglibs/dict.h>
 
 #include <opendkim/dkim.h>
 

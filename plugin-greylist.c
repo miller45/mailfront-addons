@@ -10,7 +10,7 @@
 #include <unistd.h>
 
 #include "mailfront.h"
-#include <net/socket.h>
+#include <bglibs/socket.h>
 
 static str greymsg;
 static int hasgreyrcpt = 0;
